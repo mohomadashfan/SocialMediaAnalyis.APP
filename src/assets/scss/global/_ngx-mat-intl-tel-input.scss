@@ -1,0 +1,59 @@
+
+  /* ###### ngx-mat-tel-input ###### */
+
+.country-selector {
+    opacity: 1 !important;
+    bottom: 8px !important;
+  }
+  
+  app-advanced-forms telephone-input input:not(.country-search) {
+    bottom: 3px;
+    left: 10px;
+  }
+  
+  .country-list-button {
+    font-size: 0.8rem !important;
+  }
+  
+  .mat-menu-content:not(:empty) {
+    max-height: 250px;
+  }
+  
+  .mat-form-field {
+    width: 300px;
+  }
+  
+  .mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 0.5rem 0 !important;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  
+  body:not(.rtl) .country-selector {
+    height: 36px !important;
+  }
+  .mdc-button__label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rtl .country-selector{
+  height: 36px !important;
+  left: initial !important;
+  }
+  .mat-mdc-menu-panel.mat-mdc-menu-panel{
+    top: 0;
+    max-height: 300px;
+  }
+  .country-selector{
+    opacity: 1 !important;
+    position: relative;
+  }
+  .ngx-mat-tel-input-container{
+    display: flex;
+  }
+  
+  /* ###### ngx-mat-tel-input ###### */

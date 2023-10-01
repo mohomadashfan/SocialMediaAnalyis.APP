@@ -1,0 +1,79 @@
+/* ###### ngx-editor ###### */
+.NgxEditor__MenuBar {
+    padding: 5px !important;
+	border-radius: 5px 5px 0 0;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: transparent !important;
+}
+.NgxEditor{
+    background-color: transparent !important;
+}
+@media (max-width:1294px) {
+    .NgxEditor__MenuItem {
+        margin-bottom: 4px;
+    }
+}
+.NgxEditor__Seperator {
+	display: none;
+}
+.NgxEditor__MenuItem {
+	border: var(--border);
+	border-radius: 5px !important;
+}
+.NgxEditor__MenuItem.NgxEditor__MenuItem--Icon+.NgxEditor__MenuItem--Icon {
+    margin-inline-start: 8px !important;
+}
+.NgxEditor__Dropdown .NgxEditor__Dropdown--Item:hover {
+    background-color: #f3f5fb !important;
+	color: var(--primary) !important;
+}
+.NgxEditor__MenuItem.NgxEditor__MenuItem--Icon {
+    height: 36px !important;
+    width: 36px !important;
+}
+
+.dark-theme{
+    .NgxEditor__MenuItem:hover,
+    .NgxEditor__Dropdown:hover,.NgxEditor__Dropdown .NgxEditor__Dropdown--Selected, .NgxEditor__Dropdown .NgxEditor__Dropdown--Open{
+        background-color: var(--dark-body) !important;
+    }
+    .NgxEditor__Dropdown .NgxEditor__Dropdown--Item:hover {
+        background-color: var(--dark-theme) !important;
+        color: #fff !important;
+    }
+    .NgxEditor__Dropdown .NgxEditor__Dropdown--DropdownMenu{
+        background-color: var(--dark-body);
+    }
+    .NgxEditor__MenuBar,
+    .NgxEditor{
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .NgxEditor__MenuItem {
+		background-color: var(--dark-theme);
+        border: 0.1px solid rgba(255,255, 255, 0.1);
+	}
+    .NgxEditor__Dropdown .NgxEditor__Dropdown--Active {
+		background-color: var(--primary-bg-color);
+	}
+	.NgxEditor__MenuItem.NgxEditor__MenuItem--Active, .NgxEditor__MenuItem .NgxEditor__MenuItem--Active {
+		background-color: var(--dark-theme);
+		color: #1a73e8;
+		border-radius: 4px;
+	}
+	.NgxEditor__MenuItem.NgxEditor__MenuItem--Active, 
+	.NgxEditor__MenuItem .NgxEditor__MenuItem--Active {
+		background-color: var(--dark-theme) !important;
+		border-radius: 4px !important;
+	}
+	.NgxEditor__Popup {
+		background-color: var(--dark-theme) !important;
+	}
+}
+.rtl{
+    .NgxEditor__Dropdown .NgxEditor__Dropdown--Text:after {
+        margin-right: 24px !important;
+        margin-left: auto !important;
+    }
+}
+/* ###### ngx-editor ###### */
