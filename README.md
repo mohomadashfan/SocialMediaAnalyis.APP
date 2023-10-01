@@ -1,6 +1,6 @@
-# Dashplex16
+##Installing node_modules
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+Run `npm install`
 
 ## Development server
 
